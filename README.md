@@ -11,6 +11,11 @@ For the local agent I followed the DeepLearning.AI short course on ["Building Yo
 
 ---
 
+## 💬 Azure OpenAI AI Agent that chats with CSV files
+
+Check the [notebook](azure_llm.ipynb) to see how to implement a LangChain agent that can read a dataframe and answer context-aware questions!
+
+
 ## 📃 Data Processing and Analysis
 
 1. **Source**: [Portuguese Parliament Initiatives](https://www.parlamento.pt/Cidadania/Paginas/DAIniciativas.aspx). A JSON file with all initiatives, acts, polls and votes for the 16th Legislature.
@@ -19,13 +24,12 @@ For the local agent I followed the DeepLearning.AI short course on ["Building Yo
 
 3. Used the [data_exploration](data_exploration.ipynb) notebook to explore the dataset and save the relevant info to CSV files. See all files at [data/processed](data/processed).
 
-4. Final data structure:
-- **Hierarchy**: initiatives > acts > polls > votes.
-- **Fields**: check the [image](data/processed/fields.png) at [data/processed](data/processed) for info on final processed fields.
+4. Final data structure and hierarchy: initiatives > acts > polls > votes.
 
-## 💬 Azure OpenAI AI Agent that chats with CSV files
 
-Check the [notebook](azure_llm.ipynb) to see how to implement a LangChain agent that can read a dataframe and answer context-aware questions!
+<h4 align="center">
+    <img src="data/processed/fields.png" width=50%>
+</h4>
 
 ---
 
