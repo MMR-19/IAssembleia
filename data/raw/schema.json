@@ -1,0 +1,60 @@
+{
+    "DataFimleg": "str",
+    "DataInicioleg": "str",
+    "IniAnexos": [
+        {
+            "anexoFich": "str",
+            "anexoNome": "str"
+        }
+    ],
+    "IniAutorDeputados": "str",
+    "IniAutorGruposParlamentares": "str",
+    "IniAutorOutros": {
+        "iniAutorComissao": "str",
+        "nome": "str",
+        "sigla": "str"
+    },
+    "IniciativasEuropeias": "str",
+    "IniciativasOrigem": "str",
+    "IniciativasOriginadas": "str",
+    "IniDescTipo": "str",
+    "IniEpigrafe": "str",
+    "IniEventos": [
+        {
+            "ActId": "str",
+            "ActividadesConjuntas": "str",
+            "AnexosFase": "str",
+            "CodigoFase": "str",
+            "Comissao": "str",
+            "DataFase": "str",
+            "EvtId": "str",
+            "Fase": "str",
+            "IniciativasConjuntas": "str",
+            "Intervencoesdebates": "str",
+            "Links": "str",
+            "ObsFase": "str",
+            "OevId": "str",
+            "OevTextId": "str",
+            "PcpublicasConjuntas": "str",
+            "PeticoesConjuntas": "str",
+            "PublicacaoFase": "str",
+            "RecursoDeputados": "str",
+            "RecursoGP": "str",
+            "TextosAprovados": "str",
+            "Votacao": "str"
+        }
+    ],
+    "IniId": "str",
+    "IniLeg": "str",
+    "IniLinkTexto": "str",
+    "IniNr": "str",
+    "IniObs": "str",
+    "IniSel": "str",
+    "IniTextoSubst": "str",
+    "IniTextoSubstCampo": "str",
+    "IniTipo": "str",
+    "IniTitulo": "str",
+    "Links": "str",
+    "Peticoes": "str",
+    "PropostasAlteracao": "str"
+}
