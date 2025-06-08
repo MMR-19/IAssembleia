@@ -1,15 +1,13 @@
 # IAssembleia
 
-For this project I followed the DeepLearning.AI short course on ["Building Your Own Database Agent"](https://www.deeplearning.ai/short-courses/building-your-own-database-agent/).
-
-Main topics: Azure OpenAI Service, LangChain, RAG
+For the local agent I followed the DeepLearning.AI short course on ["Building Your Own Database Agent"](https://www.deeplearning.ai/short-courses/building-your-own-database-agent/).
 
 ---
 
 ## ✨ Features
 
 - JSON data processing
-- Real-time chat with CSV database/files
+- Local AI Agent (Azure OpenAI) that can chat with CSV files
 
 ---
 
@@ -24,6 +22,10 @@ Main topics: Azure OpenAI Service, LangChain, RAG
 4. Final data structure:
 - **Hierarchy**: initiatives > acts > polls > votes.
 - **Fields**: check the [image](data/processed/fields.png) at [data/processed](data/processed) for info on final processed fields.
+
+## 💬 Azure OpenAI AI Agent that chats with CSV files
+
+Check the [notebook](azure_llm.ipynb) to see how to implement a LangChain agent that can read a dataframe and answer context-aware questions!
 
 ---
 
