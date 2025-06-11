@@ -34,7 +34,7 @@ Be sure to update the [.env](.env) file with Azure's API key and endpoint:
 4. Final data structure and hierarchy: initiatives > acts > polls > votes.
 
 <h4 align="center">
-    <img src="data/processed/fields.png" width=50%>
+    <img src="data/fields.png" width=50%>
 </h4>
 
 ---
