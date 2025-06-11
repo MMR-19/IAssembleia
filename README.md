@@ -15,6 +15,13 @@ For the local agent I followed the DeepLearning.AI short course on ["Building Yo
 
 Check the [notebook](azure_llm.ipynb) to see how to implement a LangChain agent that can read a dataframe and answer context-aware questions!
 
+Be sure to update the [.env](.env) file with Azure's API key and endpoint:
+
+1. Create an [Azure free account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=openai-service)
+2. Follow the steps to deploy a resource
+3. Follow to Azure AI Foundry and deploy a model of your choice
+4. Extract both the API Key and Inference Endpoint
+5. Replace on .env file
 
 ## 📃 Data Processing and Analysis
 
@@ -25,7 +32,6 @@ Check the [notebook](azure_llm.ipynb) to see how to implement a LangChain agent 
 3. Used the [data_exploration](data_exploration.ipynb) notebook to explore the dataset and save the relevant info to CSV files. See all files at [data/processed](data/processed).
 
 4. Final data structure and hierarchy: initiatives > acts > polls > votes.
-
 
 <h4 align="center">
     <img src="data/processed/fields.png" width=50%>
